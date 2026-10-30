@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sarkari Result 2.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2"/><path d="M5 8.5l7 1.5 7-1.5M12 10v5m0 0-3 6m3-6 3 6"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</svg>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="bar" id="bar">
+  <button class="ib" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg class="i"><use href="#i-menu"/></svg></button>
+  <a class="brandwrap" href="#" aria-label="Sarkari Result, back to top">
+    <img class="logo" src="logo-new.png" alt="Sarkari Result logo" onerror="this.style.display='none'">
+    <h1 class="brand">Sarkari Result<small>Results, forms and admit cards in one place</small></h1>
+  </a>
+  <button class="ib" id="searchBtn" aria-label="Search"><svg class="i"><use href="#i-search"/></svg></button>
+  <button class="ib" id="a11yBtn" aria-label="Accessibility options"><svg class="i"><use href="#i-access"/></svg></button>
+</header>
+
+<div id="scrim"></div>
+<nav id="drawer" aria-label="Main menu" aria-hidden="true">
+  <div class="dr-h">Menu <button class="ib" id="closeMenu" aria-label="Close menu"><svg class="i"><use href="#i-x"/></svg></button></div>
+  <ul id="menuList"></ul>
+</nav>
+
+<main id="main" class="wrap">
+  <section class="hero" aria-label="Welcome">
+    <p>Welcome to No. 1 Education Portal Official Sarkari Result 2026 SarkariResult.Com | Trusted by Millions</p>
+  </section>
+  <div class="ticker"><b>Latest</b><div class="mask"><div class="track" id="track"></div></div></div>
+
+  <h2 class="sec">Apply now<small>Newest forms, open right now</small></h2>
+  <div class="quick" id="quick"></div>
+
+  <h2 class="sec">Browse by category<small>Pick a year to see only that year’s posts</small></h2>
+  <div class="cards" id="cards"></div>
+  <h2 class="sec">About Sarkari Result<small>What you can find here and how to use it</small></h2>
+  <section class="about" aria-label="About Sarkari Result">
+    <article><h3>Government jobs and exams</h3><p>Government exams are held for central and state posts. Group A covers managerial roles, Group B covers gazetted officers, and Groups C and D cover non-supervisory staff. Pick a category above to see the newest notices for each.</p></article>
+    <article><h3>Results, admit cards and answer keys</h3><p>Each post gathers the exam timeline, admit card details, number of seats, application link and result dates in one place, so you do not have to search many websites.</p></article>
+    <article><h3>State-level exams</h3><p>Posts cover exams from Uttar Pradesh, Bihar, Madhya Pradesh, Delhi, Rajasthan and other states, as well as central bodies such as SSC, UPSC, Railways and Banks.</p></article>
+    <article><h3>How to apply online</h3><p>Open a post, read the official notification, keep scanned copies of your documents ready, and use the official link to apply. Always check the last date and fee before you pay.</p></article>
+  </section>
+</main>
+
+<footer>
+  <div class="fgrid">
+    <nav aria-label="Quick links"><h4>Quick links</h4>
+      <a href="https://www.sarkariresult.com/about-us/" target="_blank" rel="noopener">About Us</a>
+      <a href="https://www.sarkariresult.com/contactus/" target="_blank" rel="noopener">Contact Us</a>
+      <a href="https://www.sarkariresult.com/terms-and-conditions/" target="_blank" rel="noopener">Terms and Conditions</a>
+      <button id="mapBtn2">Site Map</button>
+      <button id="a11yBtn2">Accessibility</button>
+    </nav>
+    <nav aria-label="Apps and social media"><h4>Apps</h4>
+      <a href="https://play.google.com/store/apps/details?id=com.app.app14f269771c01" target="_blank" rel="noopener">Android App</a>
+      <a href="https://apps.apple.com/us/app/sarkari-result/id1051363935?ls=1" target="_blank" rel="noopener">Apple iOS App</a>
+      <a href="https://www.youtube.com/c/SarkariResultOfficial" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://t.me/SarkariResult2012" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://www.instagram.com/sarkariresult.comofficial/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <nav aria-label="Exam boards"><h4>More</h4>
+      <div class="fmore">
+        <a href="https://www.sarkariresult.com/bpsc/" target="_blank" rel="noopener">BPSC</a>
+        <a href="https://www.sarkariresult.com/upsssc/" target="_blank" rel="noopener">UPSSSC</a>
+        <a href="https://www.sarkariresult.com/sscall/" target="_blank" rel="noopener">SSC</a>
+        <a href="https://www.sarkariresult.com/upscall/" target="_blank" rel="noopener">UPSC</a>
+        <a href="https://www.sarkariresult.com/ibpsall/" target="_blank" rel="noopener">IBPS</a>
+        <a href="https://www.sarkariresult.com/railwayall/" target="_blank" rel="noopener">Railways</a>
+        <a href="https://www.sarkariresult.com/rpsc/" target="_blank" rel="noopener">RPSC</a>
+        <a href="https://www.sarkariresult.com/delhi-dsssb/" target="_blank" rel="noopener">Delhi DSSSB</a>
+        <a href="https://www.sarkariresult.com/haryana-hssc/" target="_blank" rel="noopener">HSSC</a>
+        <a href="https://www.sarkariresult.com/tetall/" target="_blank" rel="noopener">TET</a>
+        <a href="https://www.sarkariresult.com/policeall/" target="_blank" rel="noopener">Police</a>
+        <a href="https://www.sarkariresult.com/up-scholarship/" target="_blank" rel="noopener">UP Scholarship</a>
+      </div>
+    </nav>
+  </div>
+  <p>Redesign concept for WebVision 2.0. All posts link to the original <a href="https://www.sarkariresult.com/" target="_blank" rel="noopener">sarkariresult.com</a>. Please verify details in the official notification before applying.</p>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dlgTitle">
+  <div class="dh"><h2 id="dlgTitle"></h2><button class="ib" data-close aria-label="Close"><svg class="i"><use href="#i-x"/></svg></button></div>
+  <div class="db" id="dlgBody"></div>
+</dialog>
+
+<dialog id="sDlg" aria-labelledby="sTitle">
+  <div class="dh"><h2 id="sTitle">Search</h2><button class="ib" data-close aria-label="Close"><svg class="i"><use href="#i-x"/></svg></button></div>
+  <div class="sbox"><input id="q" type="search" placeholder="Search an exam, like SSC or UP Police" aria-label="Search posts" autocomplete="off"></div>
+  <div class="db s" id="res"><p class="empty">Type an exam name to see matching posts.</p></div>
+</dialog>
+
+<dialog id="aDlg" class="sm" aria-labelledby="aTitle">
+  <div class="dh"><h2 id="aTitle">Accessibility</h2><button class="ib" data-close aria-label="Close"><svg class="i"><use href="#i-x"/></svg></button></div>
+  <div class="opt">Text size <span class="pills"><button class="pill" data-a="dec" aria-label="Smaller text">A−</button><span id="sz">100%</span><button class="pill" data-a="inc" aria-label="Larger text">A+</button></span></div>
+  <div class="opt">High contrast <button class="pill" data-a="hc" aria-pressed="false">Off</button></div>
+  <div class="opt">Underline links <button class="pill" data-a="ul" aria-pressed="false">Off</button></div>
+  <div class="opt">Stop moving ticker <button class="pill" data-a="still" aria-pressed="false">Off</button></div>
+  <div class="opt"><span></span><button class="pill" data-a="reset">Reset all</button></div>
+</dialog>
+
+<script>
+const BASE="https://www.sarkariresult.com/";
+const CATS=[
+  {k:"forms",n:"Latest Jobs",p:"latestjob/",e:"💼"},
+  {k:"results",n:"Results",p:"result/",e:"📊"},
+  {k:"admit",n:"Admit Card",p:"admitcard/",e:"🪪"},
+  {k:"answer",n:"Answer Key",p:"answerkey/",e:"🔑"},
+  {k:"syllabus",n:"Syllabus",p:"syllabus/",e:"📚"},
+  {k:"admission",n:"Admission",p:"admission/",e:"🎓"},
+  {k:"outsourcing",n:"Outsourcing / Offline Jobs",p:"outsourcing/",e:"🏢"},
+  {k:"important",n:"Important",p:"important/",e:"⭐"},
+  {k:"verify",n:"Certificate Verification",p:"certificate/",e:"✅"}
+];
+/* DATA: [title, path, optional year]. Path is added to https://www.sarkariresult.com/ (or use a full https link).
+   If the year is left out, it is read from the title (2026 if the title has no older year). */
+const D={
+  forms:[
+    ["Dr RMLIMS Lucknow Non Teaching Various Post Online Form 2026","2026/drrmlims-lucknow-post-oct26/"],
+    ["UPSSSC Stenographer 2023 Document Uploads","upsssc/upsssc-stenographer-09-2023/",2026],
+    ["UPSSSC Stenographer 2024 Documents Upload","upsssc/upsssc-steno-13-exam-2024/",2026],
+    ["ISRO URSC Technician and Driver Online Form 2026","2026/isro-ursc-technician-driver-04-26/"],
+    ["MPESB MP Police Constable Driver Online Form 2026","2026/mpesb-mpp-constable-driver-oct26/"],
+    ["Rajasthan Safai Karamchari Online Correction / Edit Form 2026","2026/rajasthan-sanitation-worker-jul26/"],
+    ["UPESSC UP Primary Teacher (Super TET) Online Form 2026 | Extended","2026/upessc-up-primary-teacher-05-2026/"],
+    ["NTA UGC NET JRF December 2026 Online Form | Extended","railway/nta-ugc-net-december2026/"],
+    ["DSSSB Delhi District Courts Various Post Online Form 2026","2026/dsssb-various-post-oct26/"],
+    ["Railway RRB NTPC Graduate Level Online Form 2026 | CEN 06/2026","2026/rrb-ntpc-graduate-cen-06-2026/"],
+    ["Railway RRB NTPC 10+2 Under Graduate Online Form 2026","railway/railway-rrb-ntpc-ug-level-07-2026/"],
+    ["UPESSC UP TGT Online Form 2026","2026/upessc-up-tgt-07-2026/"],
+    ["Bihar School Librarian Eligibility Test SLET Online Form 2026 | Extended","2026/blet-september26/"],
+    ["UPPSC RO / ARO Online Form 2026","2026/uppsc-ro-aro-jun26/"],
+    ["Bihar BPSC School Teacher TRE 4 Online Form 2026 | Date Extended","bihar/bpsc-tre-4-2026/"],
+    ["Railway RRB Station Master Online Form 2026","2026/rrb-station-master-08-26/"],
+    ["UPESSC UP Headmaster Online Form 2026","2026/upessc-up-headmaster-09-2026/"],
+    ["LIC HFL Apprentice Online Form 2026","2026/lic-hfl-apprentice-oct26/"],
+    ["UPESSC UP Principal Inter Level Online Form 2026","2026/upessc-up-principal-08-2026/"],
+    ["NWR RRC Jaipur Apprentices Online Form 2026","2026/nwr-rrc-jaipur-apprentices-04-2026/"],
+    ["BHEL Artisan Various Trade Post Online Form 2026","2026/bhel-artisan-various-trade-oct26/"],
+    ["UPSSSC Physical Instructor & Other Post Online Form 2026","2026/upsssc-23-exam-2026/"],
+    ["Supreme Court of India Court Master Online Form 2026","2026/sci-court-master-oct26/"],
+    ["ICSIL Data Entry Operator DEO Post Online Form 2026","2026/icsil-data-entry-operator-deo-oct26/"],
+    ["CWC Assistant Manager and Junior Executive Online Form 2026","2026/cwc-am-je-oct26/"],
+    ["UPSSSC 10+2 Inter Level Various Post Online Form 2026","2026/upsssc-lower-pcs-26-exam-oct26/"],
+    ["Supreme Court of India Junior Court Attendant Online Form 2026","2026/supreme-court-of-india-jca-oct26/"],
+    ["Army 10+2 TES 57th Online Form 2026","2026/army-tes-57th-oct26/"],
+    ["UP Anganwadi Worker Bharti Online Form 2026 | Updated","2026/up-anganwadi-worker/"],
+    ["Supreme Court of India Senior Personal Assistant Online Form 2026","2026/sci-senior-personal-assistant-oct26/"],
+    ["Delhi DSSSB Sweeper, Safai Karamchari, Chowkidar Post Online Form 2026","2026/delhi-dsssb-advt-no-05-2026/"],
+    ["UPSSSC Combined Junior Engineer (Electrical) Online Form 2026","2026/upsssc-cje-electrical-adv-25-exam/"],
+    ["UPSSSC Combined Junior Engineer (Mechanical) Online Form 2026","2026/upsssc-junior-engg-adv-24-exam/"],
+    ["NTA CSIR UGC NET December 2026 Online Form","railway/nta-csir-ugc-net-dec2026/"],
+    ["Army TGC 145 Online Form 2026 for July 2027 Batch","2026/army-tgc-145-sep26/",2026],
+    ["UPPSC RO ARO 2026 Apply Online","2026/uppsc-ro-aro-jun26/"],
+    ["All India BAR AIBE 2026 Apply Online","2026/aibe-22nd-august26/"]
+  ],
+  results:[
+    ["Rajasthan RSSB Driver 2024 Result","rpsc/rssb-driver-advt-20-2024/",2026],
+    ["SSC CPO SI 2025 PET Result 2026","ssc/ssc-cpo-si-2025/"],
+    ["RPSC TGT Senior Teacher Gr II Result 2026 | Updated","2026/rajasthan-rpsc-senior-teacher-07-2025/"],
+    ["UPPSC LT Grade Assistant Teacher 2025 Mains Result | Updated","2025/uppsc-lt-grade-teacher-2025/",2026],
+    ["BPSC Assistant Section Officer ASO 2025 Mains Result","bihar/bpsc-aso-37-2025/",2026],
+    ["UPSSSC Stenographer 2023 Skill Test Result 2026","upsssc/upsssc-stenographer-09-2023/"],
+    ["UPSSSC Stenographer 2024 Skill Test Result 2026","upsssc/upsssc-steno-13-exam-2024/"],
+    ["UPSC CDS II Result 2026 | Name Wise List","upsc/upsc-cds-ii-exam-2026/"],
+    ["ISRO ICRB Assistant and Other Post Result 2026","2026/isro-various-post-jul26/"],
+    ["UP Police Home Guard Marks 2026","2025/up-police-home-guard-02-2025/"],
+    ["Cotton Corporation of India CCI Various Post Result 2026","2026/ccl-various-post-july26/"],
+    ["SSC GD Constable Revised Result 2026","ssc/ssc-gd-2025-exam-2026/"],
+    ["IBPS SO 16th Pre Score Card 2026","2026/ibps-so-16th-june26/"],
+    ["SBI Junior Associates Clerk Backlog Pre Result 2026","2026/sbi-clerk-backlog-aug26/"],
+    ["SBI Probationary Officers PO Mains Result 2026","2026/sbi-po-june26/"],
+    ["UP Police Constable Final Result 2026","2026/up-police-constable-jan26/"],
+    ["SSB Head Constable Ministerial 2020 Result / Marks 2026","force/ssb-hc-ministerial-jul21/"],
+    ["UPSC NDA II Written Exam Result 2026 | Name Wise List","upsc/upsc-nda-ii-exam-2026/"],
+    ["UPSC CPF CAPF AC 2024 Marks Details 2026","upsc/upsc-cpf-ac-2024/"],
+    ["DSSSB Assistant Teacher Primary Result 2026","delhi/dsssb-latest-result/",2026],
+    ["UP Board Time Table 2027","2027/up-board-exam-2027/",2026],
+    ["UPSSSC Moharir 2022 Eligibility Result 2026 for 92 Post","upsssc/upsssc-moharir-07-2022/"],
+    ["UPSSSC UP Ganna Parvekshak Cane Supervisor Eligibility Result 2026","upsssc/upsssc-cane-13-exam-2026/"],
+    ["India Post GDS First Merit List 2026","2026/india-post-gds-july2026/"],
+    ["AIIMS NORCET Nursing Officer 11th Stage II Result 2026","2026/aiims-norcet-11th-july26/"],
+    ["CSBC Bihar Police Constable Special Branch Final Result 2026","bihar/csbc-bihar-constable-special-01-2026/"],
+    ["National Insurance NICL Assistant Pre Result 2026","2026/nicl-assistant-july26/"],
+    ["Railway RRB Ministerial and Isolated CEN 08/2025 Result with Marks","railway/rrb-isolated-cen-08-2025/",2026],
+    ["SSC Stenographer 2025 Marks","ssc/ssc-stenographer-2025/",2026],
+    ["SSC 10+2 CHSL 2025 Final Result","ssc/ssc-chsl-2025/",2026],
+    ["SSC Multi Tasking MTS, Havaldar 2025 Additional Result","ssc/ssc-mts-2025/",2026],
+    ["UPTET 2021 Result","2021/uptet-november-2021/"],
+    ["MHA IB MTS 2025 Final Result","https://doc.sarkariresults.org.in/MHA_IB_MTS_Final_Result_05102026.pdf",2026],
+    ["UPSSSC Forest Guard 2023 PMT Result 2026 for 709 Post","upsssc/upsssc-forest-10-2023/"]
+  ],
+  admit:[
+    ["Rajasthan RVUNL Various Post Exam Date 2026","2026/rvunl-june26/"],
+    ["UPSSSC PET Admit Card 2026","2026/upsssc-pet-exam-jun26/"],
+    ["Jharkhand JAC JHTET Admit Card 2026","2026/jac-jhtet-2026/"],
+    ["Jawahar Navodaya Vidyalaya JNV NVS Class 6th Admit Card 2027","2026/nvs-class-6th-admission-july26/"],
+    ["CISF Constable / Fire Exam Date 2026","force/cisf-constable-fire-aug24/"],
+    ["SSC Junior Engineer JE Paper I Exam City Details 2026","2026/ssc-junior-engineer-2026/"],
+    ["MPESB MP Police Sub Inspector SI Admit Card 2026","2026/mpesb-sub-inspector-subedar-sep26/"],
+    ["Bank of Baroda Specialist Officer SO Admit Card 2026","2026/bank-of-baroda-so-august26/"],
+    ["Railway RRB ALP CEN 01/2026 Exam City / Admit Card","railway/rrb-alp-cen-01-2026/"],
+    ["UPPSC Lecturer 2023 Exam City Details","2023/uppsc-various-june23/",2026],
+    ["UPESSC UP Special TET Admit Card 2026","2026/up-special-tet-exam/"],
+    ["Bihar STET Admit Card 2026","2026/bseb-stet-august26/"],
+    ["Railway RRB Junior Engineer JE Admit Card 2026","2026/railway-rrb-junior-engineer-cen-04-2026/"],
+    ["National Insurance NICL Assistant Phase II Mains Admit Card 2026","2026/nicl-assistant-july26/"],
+    ["BSF HC RO / RM 2025 CBT Exam Admit Card 2026","https://tinyurl.com/mrxs93fc"],
+    ["IBPS Specialist Officer SO SPL 16th Admit Card 2026","2026/ibps-so-16th-june26/"],
+    ["MPPSC ADPO Admit Card 2026","mp/mppsc-adpo-2026/"],
+    ["RRB ALP CEN 01/2025 CBAT Exam City Details","railway/rrb-alp-cen-01-2025/",2026],
+    ["SBI Clerk Backlog Phase II Mains Admit Card 2026","2026/sbi-clerk-backlog-aug26/"],
+    ["Bihar STET 2026 Exam Date","2026/bseb-stet-august26/"],
+    ["United India Insurance UIIC AO Admit Card 2026 for 225 Post","2026/uiic-ao-sep26/"],
+    ["AAI Manager, Junior Executive Admit Card 2026 for 389 Post","2026/aai-manager-junior-executive-july26/"],
+    ["Rajasthan High Court Stenographer Admit Card 2026","2026/rajasthan-high-court-july26/"],
+    ["Delhi High Court HJS Mains Admit Card 2026","2026/delhi-hc-hjs-july26/"],
+    ["SSC Combined Graduate Level CGL 2026 Tier I Admit Card","ssc/ssc-cgl-2026/"],
+    ["Bihar BPSC 72 Pre Exam Postponed 2026","bihar/bpsc-72-pre-exam-2026/"],
+    ["UP Cooperative Bank Various Post Exam Date 2026","2026/upcisb-various-post-may26/"],
+    ["Railway RRB Section Controller Admit Card 2026","2026/rrb-section-controller-03-2026/"],
+    ["SKAU Kurukshetra Non Teaching Clerk Admit Card 2026","2026/skau-non-teaching-post-july26/"],
+    ["Railway RRB Junior Engineer JE Application Status 2026","2026/railway-rrb-junior-engineer-cen-04-2026/"],
+    ["Railway RRB Technician CEN 02/2026 Admit Card 2026","railway/rrb-technician-cen-02-2026/"],
+    ["IBPS Clerk 16th Admit Card 2026","2026/ibps-clerk-16th-august26/"],
+    ["SSC 10+2 CHSL Tier I Exam Date 2026","2026/ssc-chsl-2026-sep/"],
+    ["SSC CPO SI 2026 Exam Date","2026/ssc-cpo-si-capf-2026/"],
+    ["SSC Junior Engineer JE 2026 Paper I Exam Date","2026/ssc-junior-engineer-2026/"]
+  ],
+  answer:[
+    ["ISRO ICRB Scientist Engineer Revised Answer Key 2026","2026/isro-icrb-scientist-engineer-july26/"],
+    ["Railway RRB Section Controller Answer Key 2026 | CEN 03/2026","2026/rrb-section-controller-03-2026/"],
+    ["Railway RRB Technician CEN 02/2026 Answer Key 2026","railway/rrb-technician-cen-02-2026/"],
+    ["SSC Selection Post 14th Answer Key 2026","ssc/ssc-selection-post-14th-2026/"],
+    ["MPESB Group 2 Sub Group 4 Patwari and Other Post Answer Key 2026","2026/mpesb-group2-subgroup-4-aug26/"],
+    ["Rajasthan State Eligibility Test SET Answer Key 2026","2026/rajasthan-set-jun/"],
+    ["Uttarakhand UK TET UTET Answer Key 2026","2026/uttarakhand-utet-2026/"],
+    ["NBEMS NAT Board Group A B C Various Post Answer Key 2026","2026/nbe-various-post-june26/"],
+    ["UPSSSC Forest Guard / Wild Life Guard Mains Answer Key 2026","upsssc/upsssc-forest-guard-12-exam-2026/"],
+    ["UPSSSC Scientific and Lab Assistant Mains Answer Key 2026","2026/upsssc-paramedical-fsl-15-exam-2026/"],
+    ["Indian Airforce Agniveervayu Intake 02/2027 Answer Key 2026","force/indian-airforce-agniveervayu-02-2027/"],
+    ["Indian Air Force Airmen Group Y Medical Assistant INET 02/2027 Answer Key","2026/indian-air-force-medical-assistant/",2026],
+    ["UPESSC UP Principal Answer Key 2026","2026/upessc-principal-02-2026/"],
+    ["ISRO ICRB Assistant and Other Post Answer Key 2026","2026/isro-various-post-jul26/"],
+    ["Railway RRB NTPC 10+2 UG Level CBT II Answer Key 2026 | CEN 07/2025","railway/rrb-ntpc-ug-07-2025/"],
+    ["Patna High Court Assistant Group C Answer Key 2026","2026/patna-high-court-july26/"],
+    ["SSC Stenographer 2026 Answer Key","ssc/ssc-stenographer-2026/"],
+    ["UPSSSC Pharmacist Ayurvedic 2024 Answer Key 2026","upsssc/upsssc-pharmaceutical-01-2024/"],
+    ["UPSSSC UP Excise Constable Answer Key 2026","upsssc/upsssc-excise-constable-08-exam2026/"],
+    ["SSC Combined Hindi Translators JHT Answer Key 2026","ssc/ssc-jht-2026/"],
+    ["BSF HC Ministerial and ASI Steno Answer Key / Objection 2026","force/bsf-hcmin-asisteno-june24/"],
+    ["MPESB Group 2 Sub Group 1 Krishi Vistar Adhikari Answer Key 2026","2026/mpesb-group2-sub1-krashi-vistar/"],
+    ["NTA AIAPGET Final Answer Key 2026","2026/nta-aiapget-admissions-july26/"],
+    ["Rajasthan RSSB Computer Instructor Answer Key 2026","rpsc/rssb-computer-instructor-07-2026/"],
+    ["UPSC CDS II Answer Key 2026","upsc/upsc-cds-ii-exam-2026/"],
+    ["UPSC NDA II Answer Key 2026","upsc/upsc-nda-ii-exam-2026/"],
+    ["UPSSSC Teacher Cadre JTC Revised Answer Key 2026","upsssc/upsssc-teacher-03-exam-2026/"],
+    ["UPSSSC Assistant Boring Technician Revised Answer Key 2026","upsssc/upsssc-asst-boring-tech-04-2026/"],
+    ["Delhi DSSSB MTS Answer Key 2026","delhi/dsssb-admit-card-download/"],
+    ["NTA UGC NET Re Exam Answer Key 2026","2026/nta-ugc-net-june-2026/"],
+    ["RRB Railway Group Answer Key 2026 CEN 09/2025","railway/rrb-group-d-cen-09-2025/"],
+    ["Rajasthan RPSC APO Answer Key 2026","2026/rpsc-apo-june26/"],
+    ["NTA AIAPGET Answer Key 2026","2026/nta-aiapget-admissions-july26/"],
+    ["Haryana Teacher Eligibility Test HTET OMR Sheet 2026","2026/htet-dec-2025/"],
+    ["BSNL JTO Answer Key 2026","2026/bsnl-jto-2026/"]
+  ],
+  syllabus:[
+    ["UP Assistant Teacher Primary Class 1 to 5 Exam Syllabus 2026","2026/upessc-up-primary-teacher-05-2026/"],
+    ["SSC 10+2 CHSL Tier I, Tier II Exam Syllabus 2026","2026/ssc-chsl-2026-sep/"],
+    ["SSC Junior Engineer JE 2026 Paper I & II Exam Syllabus","2026/ssc-junior-engineer-2026/"],
+    ["UPESSC UP Super TET (Assistant Teacher) Primary & Junior Level Syllabus 2026","2026/upessc-up-super-tet-2026/"],
+    ["UPSSSC Veterinary Pharmacist Syllabus 2026","2026/upsssc-veterinary-18-exam-2026/"],
+    ["UPSSSC Livestock Extension Officer Syllabus 2026","2026/upsssc-livestock-17-exam-2026/"],
+    ["UPSSSC Scientific / Lab Assistant Exam Syllabus 2026","2026/upsssc-paramedical-fsl-15-exam-2026/"],
+    ["UPESSC UP TGT, UP PGT Syllabus 2026","2026/upessc-uptgt-uppgt-syllabus/"],
+    ["UPSSSC PET 2026 Syllabus","2026/upsssc-pet-exam-jun26/"],
+    ["CLAT 2027 UG PG Syllabus","2026/clat-admission-jul26/"],
+    ["UPESSC Principal Syllabus 2026","2026/upessc-principal-02-2026/"],
+    ["UPSSSC Moharir 2022 Exam Syllabus","upsssc/upsssc-moharir-07-2022/",2026],
+    ["RSSB Graduate Level CET Syllabus 2026","2026/rssb-cet-graduate-level-july26/"],
+    ["UPSSSC Pharmacist Ayurvedic 2024 Syllabus","upsssc/upsssc-pharmaceutical-01-2024/"],
+    ["Rajasthan RSSB 10+2 Senior Secondary CET Syllabus 2026","2026/rssb-cet-june26/"],
+    ["UPSSSC Auditor and Assistant Accountant Syllabus 2026","2026/upsssc-14-exam-2026/"],
+    ["Allahabad High Court RO, ARO, Computer Assistant Exam Syllabus 2026","2026/ahc-ro-aro-ca-june2026/"],
+    ["UPSSSC UP Vidhan Bhawan Guard / Fireman Syllabus 2026","upsssc/upsssc-vidhan-09-exam-2026/"],
+    ["MPESB Nursing Officer, Sister Tutor Syllabus 2026","mp/mpesb-nursing-officer-tutor-mar26/"],
+    ["Patna High Court Technical Assistant Syllabus 2026","bihar/phc-technical-assistant-01-2026/"],
+    ["Jharkhand Teacher Eligibility Test JHTET Syllabus 2026","2026/jac-jhtet-2026/"],
+    ["UPTET 2026 Syllabus","2026/uptet-2026/"]
+  ],
+  admission:[
+    ["All India Bar Exam AIBE 22nd XXII Online Correction Edit Form 2026","2026/aibe-22nd-august26/"],
+    ["NTA JEEMAIN 2027 Online Form","2027/nta-jeemain-session1-jan27/",2026],
+    ["UP Scholarship Online Form 2026 (All Course)","2026/up-scholarship-postmatric-jul26/"],
+    ["NTA NIFTEE Admission Online Form 2027","2027/nta-niftee-admission/",2026],
+    ["IIT GATE 2027 Online Form | Re-Open","2027/gate-2027/",2026],
+    ["IIT JAM 2027 Online Form","2027/iit-jam-august26/",2026],
+    ["UPRTOU Ph.D Entrance Exam Admission Online Form 2026","2026/uprtou-ph-d-entrance-exam-sep26/"],
+    ["IIM CAT Admission Online Form 2026 Date Extended","2026/iim-cat-jul26/"],
+    ["Bihar Library Eligibility Test BLET Online Form 2026","2026/blet-september26/"],
+    ["NTA RIMCEE Class 8th Admissions Online Form 2027","2026/nta-rimcee-class-8th-sep26/",2026],
+    ["Allahabad University PHd Admissions Online Form 2026","2026/university-of-allahabad-au-sep26/"],
+    ["UP DELED Online Counselling 2026","2026/updeled-admissions-2/"],
+    ["NVS Class 6th Admissions Online Form 2027 Date Extended","2026/nvs-class-6th-admission-july26/",2026],
+    ["NEET UG 2026 Online Counselling","2026/nta-neet-ug-2026/"],
+    ["SAV Jamui Bihar Class VI 6th Admission Online Form 2027","2026/sav-class-6th-admission-august26/",2026],
+    ["UP SCVTUP ITI Admissions Online Form 2026","2026/upiti-admission-july2026/"],
+    ["CLAT 2027 Admission Online Form","2026/clat-admission-jul26/",2026]
+  ],
+  outsourcing:[
+    ["KGBV Kasturba Gandhi Balika Vidyalaya Lakhimpur Kheri Recruitment 2026","2026/kgbv-lakhimpur-kheri-oct26/"],
+    ["UP Sewayojan Vibhag MTS Online Form 2026","2026/up-sewayojan-vibhag-mts-august26/"],
+    ["UP Kasganj ECCE Educator Online Form 2026","2026/up-kasganj-ecce-educator-oct26/"],
+    ["UP Meerut ECCE Educator Online Form 2026","2026/up-meerut-ecce-educator-august26/"],
+    ["UP Kushinagar ECCE Educator Online Form 2026","2026/up-kushinagar-ecce-educator-july26/"],
+    ["UP ECCE Educator Rampur Online Form 2026","2026/up-ecce-educator-rampur-sep26/"],
+    ["UP ECCE Educator Fatehpur Online Form 2026","2026/up-ecce-educator-fatehpur-oct26/"],
+    ["UP ECCE Educator Kanpur Nagar Online Form 2026","2026/up-ecce-educator-kanpur-oct26/"],
+    ["UP ECCE Educator Hapur Online Form 2026","2026/up-ecce-educator-hapur-oct26/"],
+    ["UP ECCE Educator Mathura Online Form 2026","2026/up-ecce-educator-oct26/"],
+    ["UP Jhansi ECCE Educator Online Form 2026","2026/up-jhansi-ecce-educator-oct26/"],
+    ["Rajasthan Safai Karamchari Worker Online Form 2026","2026/rajasthan-sanitation-worker-jul26/"]
+  ],
+  important:[
+    ["Voter ID EPIC Download 2026","https://tinyurl.com/z3mmsa96"],
+    ["UP Nursing Council Registration Online Form 2026","2027/up-nursing-council-registration/",2026],
+    ["NIELIT CCC Exam Online Form 2026","2026/nielit-ccc-july26/"],
+    ["Delhi DSSSB E Dossier Form 2026","delhi/dsssb-result-apr26/"],
+    ["UP Self Enumeration Online Registration 2026","2026/up-self-enumeration/"],
+    ["NIELIT CCC Online Form 2026","2026/nielit-ccc-online-form/"],
+    ["MP CPCT Online Form 2026","mp/mp-cpct-2026/"],
+    ["MP Rojgar Panjiyan 2025","page/mprojgar/"],
+    ["UP Scholarship Online Form 2024","2024/up-scholarship-postmatric/"],
+    ["SSC OTR Online Form 2024","ssc/ssc-one-time-registration-otr/"]
+  ],
+  verify:[
+    ["UPTET 2026 Certificate Download","2026/uptet-2026/"],
+    ["UP DELED 2023 Certificate Download","2021/up-btc-deled-result/",2023],
+    ["NTA CSIR UGC NET June 2026 E Certificate Download","2026/nta-csir-net-june2026/"],
+    ["NTA UGC NET June 2026 E Certificate Download","2026/nta-ugc-net-june-2026/"],
+    ["CSJMU Kanpur University Degree, Provisional & Migration Certificate Download","2026/csjmu-kanpur-degree-sep26/"],
+    ["CCSU Meerut University Provisional & Migration Certificate Download","2026/ccsu-meerut-provisional-certificate/"],
+    ["PRSU Prayagraj University Provisional & Migration Certificate Download","2026/prsu-prayagraj-provisional-aug26/"],
+    ["Haryana TET HTET 2024 Certificate Download","hssc/htet-dec-2024/"],
+    ["CTET February 2026 Certificate Download","2026/ctet-feb-2026/"],
+    ["NTA CSIR NET December 2025 E Certificate","2025/nta-csir-ugc-dec2025/"],
+    ["NTA UGC NET December 2025 E Certificate Download","2025/ugc-net-december-2025/"],
+    ["NTA UGC NET December 2024 E Certificate Download","2024/nta-ugc-net-dec24/"]
+  ]
+};
+const yr=t=>{if(/2026/.test(t))return 2026;const o=(t.match(/20\d\d/g)||[]).map(Number).filter(n=>n<=2025);return o.length?o[o.length-1]:2026};
+Object.keys(D).forEach(k=>{D[k]=D[k].map(([t,p,y])=>[t,y||yr(t),p])});
+const EXAMS=[["BPSC","bpsc/"],["UP Scholarship","up-scholarship/"],["UPSSSC","upsssc/"],["SSC","sscall/"],["IBPS","ibpsall/"],["UPSC","upscall/"],["Air Force","indian-air-force/"],["Navy","indian-navy/"],["RPSC","rpsc/"],["Delhi DSSSB","delhi-dsssb/"],["HSSC","haryana-hssc/"],["TET","tetall/"],["Police","policeall/"],["Railways","railwayall/"]];
+const LINKS=[["Android App","https://play.google.com/store/apps/details?id=com.app.app14f269771c01"],["Apple iOS App","https://apps.apple.com/us/app/sarkari-result/id1051363935?ls=1"],["YouTube","https://www.youtube.com/c/SarkariResultOfficial"],["Telegram","https://t.me/SarkariResult2012"],["WhatsApp","https://www.whatsapp.com/channel/0029Va5IElwBlHpVBd6i5a18"],["Instagram","https://www.instagram.com/sarkariresult.comofficial/"],["Facebook","https://www.facebook.com/SarkariResult.ComOfficial/"],["X (Twitter)","https://x.com/srofficial2012"],["Threads","https://www.threads.com/@sarkariresult.comofficial"],["LinkedIn","https://www.linkedin.com/company/sarkariresult-com/"]];
+
+const $=s=>document.querySelector(s);
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cat=k=>CATS.find(c=>c.k===k);
+const href=(k,x)=>{const p=(x[2]||cat(k).p).trim();return /^https?:/.test(p)?p:BASE+p};
+const years=k=>[...new Set(D[k].map(x=>x[1]))].sort((a,b)=>b-a);
+const li=(k,x)=>`<li><a href="${href(k,x)}" target="_blank" rel="noopener">${esc(x[0])}</a></li>`;
+const listFor=(k,y,max)=>D[k].filter(x=>x[1]==y).slice(0,max||999).map(x=>li(k,x)).join("")||'<li class="empty">No posts yet.</li>';
+
+/* Ticker: one direction, endless loop */
+const latest=D.forms.filter(x=>x[1]==years("forms")[0]);
+const seq=hide=>`<div class="seq"${hide?' aria-hidden="true"':""}>${latest.map(x=>`<a href="${href("forms",x)}" target="_blank" rel="noopener"${hide?' tabindex="-1"':""}>${esc(x[0])}</a>`).join("")}</div>`;
+$("#track").innerHTML=seq(false)+seq(true);
+/* Ticker speed: fixed pixels per second, so a longer list never runs faster. Lower SPEED = slower. */
+const SPEED=25;
+function tickSpeed(){const w=$("#track .seq").offsetWidth;if(w)$("#track").style.animationDuration=(w/SPEED)+"s"}
+tickSpeed();addEventListener("load",tickSpeed);addEventListener("resize",tickSpeed);
+
+/* Header: large logo and heading at the top, smaller after scrolling */
+const bar=$("#bar");let small=false;
+function onScroll(){const y=scrollY;if(!small&&y>60){small=true;bar.classList.add("small")}else if(small&&y<10){small=false;bar.classList.remove("small")}}
+addEventListener("scroll",onScroll,{passive:true});onScroll();
+
+/* Apply now buttons */
+$("#quick").innerHTML=latest.slice(0,8).map(x=>`<a href="${href("forms",x)}" target="_blank" rel="noopener">${esc(x[0])}</a>`).join("");
+
+/* Category cards with year tabs */
+$("#cards").innerHTML=CATS.map(c=>{
+  const ys=years(c.k);
+  return `<article class="card" data-k="${c.k}"><header><h3>${c.n}</h3><button class="more" data-open="${c.k}">View all</button></header>
+  <div class="tabs" role="tablist" aria-label="${c.n} by year">${ys.map((y,i)=>`<button role="tab" aria-selected="${i==0}" data-y="${y}">${y}</button>`).join("")}</div>
+  <ul class="list">${listFor(c.k,ys[0],6)}</ul></article>`;
+}).join("");
+$("#cards").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  const card=b.closest(".card"), k=card.dataset.k;
+  if(b.dataset.open) return openCat(k);
+  if(b.dataset.y){
+    card.querySelectorAll(".tabs button").forEach(t=>t.setAttribute("aria-selected",t===b));
+    card.querySelector(".list").innerHTML=listFor(k,b.dataset.y,6);
+  }
+});
+
+/* Pop-up for a full category, grouped year by year */
+const dlg=$("#dlg");
+function show(title,html){$("#dlgTitle").textContent=title;$("#dlgBody").innerHTML=html;if(!dlg.open)dlg.showModal();$("#dlgBody").scrollTop=0}
+function openCat(k){
+  const c=cat(k);
+  show(c.n,years(k).map((y,i)=>`<details ${i?"":"open"}><summary>${y}<span>${D[k].filter(x=>x[1]==y).length} posts</span></summary><ul class="list">${listFor(k,y)}</ul></details>`).join("")
+   +`<p class="empty"><a href="${BASE+c.p}" target="_blank" rel="noopener">See all ${c.n} on sarkariresult.com</a></p>`);
+}
+
+/* Side menu */
+const dr=$("#drawer"),sc=$("#scrim"),mb=$("#menuBtn");
+function drawer(on){
+  dr.classList.toggle("on",on);sc.classList.toggle("on",on);
+  mb.setAttribute("aria-expanded",on);dr.setAttribute("aria-hidden",!on);
+  if(on)setTimeout(()=>$("#closeMenu").focus(),50);
+}
+const MENU=[["🏠","Home",()=>scrollTo({top:0,behavior:"smooth"})],
+  ...CATS.map(c=>[c.e,c.n,()=>openCat(c.k)]),
+  ["🗺️","Site Map",()=>openMap()],
+  ["✉️","Contact Us",()=>show("Contact Us",`<p class="empty">For any query, visit the <a href="${BASE}contactus/" target="_blank" rel="noopener">official Contact Us page</a>.</p>`)]];
+$("#menuList").innerHTML=MENU.map((m,i)=>`<li><button data-i="${i}"><span aria-hidden="true">${m[0]}</span>${m[1]}</button></li>`).join("");
+$("#menuList").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;drawer(false);MENU[b.dataset.i][2]()});
+mb.onclick=()=>drawer(true);$("#closeMenu").onclick=()=>drawer(false);sc.onclick=()=>drawer(false);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")drawer(false)});
+
+/* Search */
+const all=[];CATS.forEach(c=>D[c.k].forEach(x=>all.push({c,x})));
+$("#searchBtn").onclick=()=>{$("#sDlg").showModal();$("#q").focus()};
+$("#q").addEventListener("input",e=>{
+  const w=e.target.value.toLowerCase().split(/\s+/).filter(Boolean),r=$("#res");
+  if(!w.length){r.innerHTML='<p class="empty">Type an exam name to see matching posts.</p>';return}
+  const m=all.filter(({x})=>w.every(t=>x[0].toLowerCase().includes(t))).slice(0,40);
+  r.innerHTML=m.length?`<ul class="list">${m.map(({c,x})=>`<li><a href="${href(c.k,x)}" target="_blank" rel="noopener"><small>${c.n} · ${x[1]}</small>${esc(x[0])}</a></li>`).join("")}</ul>`:'<p class="empty">No match found. Try a shorter word.</p>';
+});
+
+/* Accessibility options (saved in the browser) */
+const DEF={size:100,hc:false,ul:false,still:false};let S={...DEF};
+try{S={...DEF,...JSON.parse(localStorage.getItem("a11y")||"{}")}}catch(e){}
+function apply(){
+  document.documentElement.style.fontSize=S.size+"%";$("#sz").textContent=S.size+"%";
+  ["hc","ul","still"].forEach(k=>{document.body.classList.toggle(k,S[k]);const b=document.querySelector(`[data-a=${k}]`);b.setAttribute("aria-pressed",S[k]);b.textContent=S[k]?"On":"Off"});
+  try{localStorage.setItem("a11y",JSON.stringify(S))}catch(e){}
+}
+$("#a11yBtn").onclick=()=>$("#aDlg").showModal();
+document.addEventListener("click",e=>{
+  const b=e.target.closest("[data-a]");if(!b)return;const a=b.dataset.a;
+  if(a==="inc")S.size=Math.min(150,S.size+10);else if(a==="dec")S.size=Math.max(80,S.size-10);
+  else if(a==="reset")S={...DEF};else S[a]=!S[a];
+  apply();
+});
+apply();
+
+/* Close buttons and click on the dark area close a pop-up */
+document.querySelectorAll("dialog").forEach(d=>{
+  d.addEventListener("click",e=>{if(e.target===d||e.target.closest("[data-close]"))d.close()});
+});
+
+/* Site map pop-up */
+function openMap(){
+  const g=(t,body)=>`<details open><summary>${t}</summary><ul class="list">${body}</ul></details>`;
+  const a=(n,u)=>`<li><a href="${u}" target="_blank" rel="noopener">${esc(n)}</a></li>`;
+  show("Site Map",
+    g("Main pages",`<li><button class="lk" data-home>Home</button></li>`+CATS.map(c=>`<li><button class="lk" data-cat="${c.k}">${c.n} (year-wise)</button></li>`).join(""))
+    +g("Exam boards",EXAMS.map(([n,u])=>a(n,BASE+u)).join(""))
+    +g("Apps and social media",LINKS.map(([n,u])=>a(n,u)).join(""))
+    +g("Help",a("Contact Us",BASE+"contactus/")));
+}
+$("#dlgBody").addEventListener("click",e=>{
+  const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.cat)openCat(b.dataset.cat);
+  if(b.hasAttribute("data-home")){dlg.close();scrollTo({top:0,behavior:"smooth"})}
+});
+$("#mapBtn2").onclick=openMap;
+$("#a11yBtn2").onclick=()=>$("#aDlg").showModal();
+
+/* Welcome notice: shown ONCE when the site is opened, never again in this browser session */
+try{
+  if(!sessionStorage.getItem("noticeShown")){
+    sessionStorage.setItem("noticeShown","1");
+    show("Latest updates",`<p class="empty">Newest application forms:</p><ul class="list">${latest.slice(0,5).map(x=>li("forms",x)).join("")}</ul>`);
+  }
+}catch(e){}
+</script>
+</body>
+</html>
