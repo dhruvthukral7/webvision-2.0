@@ -16,8 +16,6 @@ SarkariResult is used by millions of people, but its design makes it hard to use
   people rely on it for important career information.
 - **Hard to find things:** users must scroll through long lists to find one
   result or form.
-- **Poor mobile experience:** most users are on phones, but the layout is
-  built like an old desktop page.
 
 ## Our Solution
 
@@ -28,7 +26,6 @@ what they came for?*
 - **Category cards** (Results, Admit Cards, Latest Jobs, Answer Keys,
   Syllabus) instead of one long list
 - **Search bar** at the top so users can jump straight to their exam
-- **Mobile-first, responsive design** that works on any screen size
 - **Highlighted "New" and "Last Date" tags** so urgent items stand out
 - **Smooth side menu** for easy navigation
 
